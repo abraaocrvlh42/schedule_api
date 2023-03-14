@@ -3,7 +3,7 @@ namespace :dev do
   task setup: :environment do
     puts "Creating and registering contacts..."
     puts "------------------------------------"
-    puts "Registering the types of contacts.."
+    puts "Registering the types of contacts..."
 
     kinds = %w(Friend Comercial Emergency)
 
