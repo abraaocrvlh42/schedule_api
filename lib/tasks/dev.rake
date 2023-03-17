@@ -13,6 +13,7 @@ namespace :dev do
       )
     end
 
+    
     5.times do |i|
       Contact.create!(
         name: Faker::Name.name,
