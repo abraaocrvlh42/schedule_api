@@ -18,6 +18,7 @@ namespace :dev do
         name: Faker::Name.name,
         email: Faker::Internet.email,
         birthdate: Faker::Date.between(from: 2.days.ago, to: Date.today),
+        
         kind: Kind.all.sample
       )
     end
