@@ -1,6 +1,6 @@
 namespace :dev do
   desc "Configure the development environment..."
-  task setup::environment do
+  task setup: :environment do
     puts "Creating and registering contacts..."
     puts "------------------------------------"
     puts "Registering the types of contacts..."
