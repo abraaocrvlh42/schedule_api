@@ -21,7 +21,7 @@ namespace :dev do
         kind: Kind.all.sample
       )
     end
-    puts "------------------------------------"
+    puts "-----------------------------------"
     puts "Registered contacts..."
   end
 end
