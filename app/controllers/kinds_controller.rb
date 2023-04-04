@@ -22,6 +22,7 @@ class KindsController < ApplicationController
       render json: @kind.errors, status: :unprocessable_entity
     end
   end
+  
   # PATCH/PUT /kinds/1
   def update
     if @kind.update(kind_params)
