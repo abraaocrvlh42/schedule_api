@@ -11,7 +11,6 @@ class KindsController < ApplicationController
   def show
     render json: @kind
   end
-
   # POST /kinds
   def create
     @kind = Kind.new(kind_params)
